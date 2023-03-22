@@ -1,7 +1,10 @@
-## [Read an in-depth tutorial on how to use this here](https://medium.freecodecamp.org/how-to-delete-your-past-tweets-in-bulk-and-for-free-save-yourself-from-your-past-self-f8844cdbda2).
+Decided to make my own script to delete tweets based on keywords.
 
-This is a fork of https://github.com/koenrh/delete-tweets specifically for my tutorial.
+If you use this, please read up on Twitter API and generation of keys and tokens.
+Also about requesting a backup of your tweets in Twitter settings.
 
-I made his library slightly easier to use for non-Python developers by removing the need for environment variables.
+Most of the work was done using GPT.
 
-I do not plan to maintain this fork. If you want to contribute to this project, please contribute to @koenrh's repo instead.
+I had a basic design based on @koenrh's repo, but it assumes a CSV file as backup.
+I do not know if this is antiquated, but now if you ask Twitter for a backup of your tweets you get JSON files.
+This script only needs the tweets.js file.

@@ -2,3 +2,6 @@
 bin/
 include/
 lib/
+tweets.js
+keys.txt
+clientkeys.txt
